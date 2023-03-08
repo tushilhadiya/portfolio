@@ -96,11 +96,11 @@ html{
 .wrapper::after{
     position: absolute;
     content: ' ';
-    height: 500px;
-    width: 500px;
+    height: 425px;
+    width: 425px;
     border-radius: 50%;
-    left: 64%;
-    top: 27%;
+    left: 65%;
+    top: 36%;
     background: linear-gradient(45deg,rgb(219, 171, 14),rgba(194, 120, 9, 0.418));
     
 }
@@ -199,10 +199,11 @@ button:hover{
 }
 .imgbox img{
     position: relative;
-    height: 220%;
+    height: 195%;
     width: auto;
-    top: -180px;
-    right: -280px;
+    top: -162px;
+    right: -240px;
+    border-radius: 45%;
     transform: rotateY(180deg);
     
 }
