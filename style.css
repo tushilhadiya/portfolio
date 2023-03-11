@@ -374,13 +374,10 @@ form .btn{
 {
     body{
         background-color: #000000;
-
+        
     }
     .container{
-        background-image: url(image21.jpg);
-        
-        
-             
+        background-image: url(image21.jpg);        
     }
     .wrapper::after, .wrapper::before{
         display: none;
@@ -391,11 +388,12 @@ form .btn{
 
     }
     .cols0 h1{
-        
+        margin-left: 100px;
         font-size: 27px;
         margin-bottom: -40px;
     }
     .topline{
+        margin-left: 100px;
         font-size: 22px;
     }
     .topline::after{
@@ -404,20 +402,34 @@ form .btn{
     }
     .cols0 p{
         padding: 60px 0 0;
-        
+        margin-left: 100px;
         font-size: 10px; 
     }
     .btn1{
-        padding: 10px 24px;
-        margin: 20px 0;
-        font-size:10px ;
+        padding: 6px 35px 5px;
+        margin-left: 100px ;
+        font-size:8px ;
     }
-    nav ul li{
-        
-        display: block;
-        
+    
+    .navItems{ 
+        display: block;    
+    }
+    .navItems li{
+        margin: 0 0 -40px 10px;
+    }
+    nav ul{
+        background-color: rgb(219, 171, 14);
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 60px;
+        padding-left: 15px;
+        transition: right 0.5s;
     }
     .logo{
+        margin-left: 100px;
         padding: 20px 10px 25px 0;
         font-size: 30px;
     }
@@ -433,16 +445,42 @@ form .btn{
         color: beige;
         font-size: 25px;
     }
+    nav ul .fas{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .fa-bars{
+        margin-top: 44px;
+        padding-left: 30px;
+    }
+    .about-col1 {
+        flex-basis: 100%;
+    }
+    .about-col2{
+        flex-basis: 100%;
+    }
+    
+    .subtitle{
+        flex-basis: 100%;
+    }
+    .aboutme li{
+        flex-basis: 100%;
+    }
+    .skill-list{
+        flex-basis: 100%;
+    }
+    .contact-right {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    #footer{
+        flex-basis: 100%;
+        width: 90%;
+    }
 }
-
-
-
-
-
-
-
-
-
 
 
 
