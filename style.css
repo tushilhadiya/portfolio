@@ -16,7 +16,6 @@ html{
 .container{
     width: 100%;
     min-height: 100vh;
-    background-color: #202020;
  }
  nav{
      display: flex;
@@ -357,6 +356,11 @@ form .btn{
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
+}
+#msg{
+    color: #61b752;
+    margin-top: 10px;
+    display: block;
 }
 #footer{
     text-align: center;
